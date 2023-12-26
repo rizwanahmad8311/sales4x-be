@@ -1,10 +1,11 @@
 {
   "development": {
-    "username": "root",
-    "password": null,
+    "username": "default_user",
+    "password": "123rafay",
     "database": "sales4x",
-    "host": "127.0.0.1",
-    "dialect": "mysql"
+    "host": "db4free.net",
+    "dialect": "mysql",
+    "port":3306
   },
   "test": {
     "username": "root",
@@ -13,11 +14,12 @@
     "host": "127.0.0.1",
     "dialect": "mysql"
   },
-  "production": {
-    "username": "root",
-    "password": null,
-    "database": "database_production",
-    "host": "127.0.0.1",
-    "dialect": "mysql"
+  "production":{
+    "username": "default_user",
+    "password": "123rafay",
+    "database": "sales4x",
+    "host": "db4free.net",
+    "dialect": "mysql",
+    "port":3306
   }
 }
